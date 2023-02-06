@@ -3,8 +3,26 @@
     "name": "e-laundry",
     "slug": "e-laundry",
     "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.chaizir.elaundry"
+    },
+    "android": {
+      "package": "com.chaizir.elaundry",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f1c90ef9-7de9-430d-8f82-e2f1452ad7fc"
+      }
+    }
   }
 }
